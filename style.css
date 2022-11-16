@@ -1,0 +1,29 @@
+#show_sketch{
+    float: right;
+}
+
+h2{
+    background-color:orangered;
+    height: 40;
+    padding-left: 200px;
+}
+
+canvas{
+    background-color: white;
+    border-radius: 20px;
+    border:5px solid white ;
+    animation-name: examle;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes examle{
+    from{box-shadow : 1px 1px 36px black;}
+    to{box-shadow : 4px 4px 36px white;}
+}
+
+#clear{
+    width: 100px;
+    margin-bottom: 10px;
+}
